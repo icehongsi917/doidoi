@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+
+
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    height: 1200px;
+
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu {
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 25%;
+    text-align: center;
+}
+
+.menu li a {
+    color: white;
+    transition: 0.3s;
+}
+
+.main {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+
+    margin-top: 150px;
+
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.main h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.main p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.main button {
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: transparent;
+
+    color: white;
+    transition: 0.3s;
+}
+
+.main button:hover {
+    background-color: black;
+    color: black;
+}
+
+.back {
+
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.back img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.about {
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.about h2 {
+    font-style: 30px;
+    color: #ff6a6a;
+}
+
+.about h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.about .contents {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+}
+
+.about .left {
+    width: 400px;
+    height: 500px;
+}
+
+.about .left img {
+    width: 400px;
+    height: 500px;
+}
+
+.about .right {
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+.about .right h3{
+    color: #ff6a6a;
+    font-style: 30px;
+}
+.about .right li{
+    font-size: 20px;
+    color: black;
+
+    margin-top: 10px;
+}
+.fa-youtube{
+    color: red;
+    font-size: 50px;
+}
+.fa-twitter{
+    color: dodgerblue;
+    font-size: 50px;
+}
+.fa-discord{
+    color: rgb(67, 93, 240);
+    font-size: 50px;
+}
+.fa-cheese {
+    color: rgb(41, 175, 102);
+    font-size: 50px;
+}
+.fa-instagram {
+    color: rgb(209, 31, 179);
+    font-size: 50px;
+}    
