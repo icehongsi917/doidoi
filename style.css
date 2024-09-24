@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-shadow: border-box;
+}
 
-
+html{
+    scroll-behavior: smooth;
 }
 
 a {
@@ -189,3 +191,84 @@ li {
     color: rgb(209, 31, 179);
     font-size: 50px;
 }    
+
+
+.skills{
+    width: 100%;
+    height: 700px;
+    background-color: #eee;
+    color: black;
+}
+.skills-inner{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.skills h2{
+    font-style: 30px;
+    color: #ff6a6a;
+}
+.skills h1{
+    font-size: 50px;
+}
+.skills .contents{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.skills .contents li{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+    padding: 10px;
+
+    transition: 0.3s;
+}
+.skills h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.skills p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.skills i{
+    color: #ff6a6a;
+
+}
+.fa-keyboard{
+    font-size: 25px;
+}
+.skills .contents li:hover{
+    background-color: #ff6a6a;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.skills .contents li:hover i{
+    color: white;
+}
+.bg{
+    width: 100%;
+    height: 800px;
+    background: url(고냠이.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
