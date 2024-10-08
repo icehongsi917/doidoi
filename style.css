@@ -131,7 +131,7 @@ li {
 
 .about h2 {
     font-style: 30px;
-    color: #ff6a6a;
+    color: #a99891;
 }
 
 .about h1 {
@@ -162,7 +162,7 @@ li {
     padding-left: 10px;
 }
 .about .right h3{
-    color: #ff6a6a;
+    color: #a99891;
     font-style: 30px;
 }
 .about .right li{
@@ -207,7 +207,7 @@ li {
 }
 .skills h2{
     font-style: 30px;
-    color: #ff6a6a;
+    color: #a99891;
 }
 .skills h1{
     font-size: 50px;
@@ -240,14 +240,14 @@ li {
     font-size: 18px;
 }
 .skills i{
-    color: #ff6a6a;
+    color: #a99891;
 
 }
 .fa-keyboard{
     font-size: 25px;
 }
 .skills .contents li:hover{
-    background-color: #ff6a6a;
+    background-color: #a99891;
     color: rgb(255, 255, 255);
     transform: scale(1.1);
 }
@@ -275,7 +275,7 @@ li {
 
 .contact h2{
     font-style: 30px;
-    color: #ff6a6a;
+    color: #a99891;
 }
 
 .contact h1{
@@ -326,15 +326,15 @@ li {
 }
 
 .contact .right textarea{
-    width: 500px;
-    height: 300px;
+    width: 1050px;
+    height: 330px;
     border: 1px solid #ccc;
 }
 
 .contact .right button{
-    width: 500px;
+    width: 1050px;
     height: 30px;
-    background-color: #ff6a6a;
+    background-color: #a99891;
     color: white;
 }
 
