@@ -203,7 +203,6 @@ li {
     width: 1200px;
     height: 500px;
     margin: 0 auto;
-    margin-top: 100px;
     padding-top: 100px;
 }
 .skills h2{
@@ -263,9 +262,81 @@ li {
     background-attachment: fixed;
 }
 
+.project{
+    height: 1200px;
+}
 
+.contact{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
+.contact h2{
+    font-style: 30px;
+    color: #ff6a6a;
+}
 
+.contact h1{
+    font-size: 50px;
+    color: black;
+}
+
+.contact .contents{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+}
+
+.contact .left{
+    width: 400px;
+    height: 600px;
+}
+
+.contact .right{
+    width: 800px;
+    height: 600px;
+    border-left: 2px dashed #ccc;
+    padding-left: 21px;
+}
+
+.info li{
+    width: 350px;
+    height: 80px;
+    color: black;
+
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact .right p{
+    font-size: 25px;
+    color: black;
+}
+
+.contact .right input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.contact .right textarea{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.contact .right button{
+    width: 500px;
+    height: 30px;
+    background-color: #ff6a6a;
+    color: white;
+}
 
 
 
