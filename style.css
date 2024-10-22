@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-shadow: border-box;
+
 }
 
 html{
     scroll-behavior: smooth;
+
+    background-color: black;
 }
 
 a {
@@ -99,8 +102,8 @@ li {
 }
 
 .main button:hover {
-    background-color: black;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: rgb(253, 169, 58);
 }
 
 .back {
@@ -113,12 +116,12 @@ li {
     top: 0;
     left: 0;
     z-index: -1;
+    filter: blur(3px);
 }
 
 .back img {
     width: 100vw;
     height: 100vh;
-
 }
 
 .about {
@@ -127,6 +130,7 @@ li {
 
     margin: 0 auto;
     margin-top: 200px;
+    background-color: black;
 }
 
 .about h2 {
@@ -136,7 +140,7 @@ li {
 
 .about h1 {
     font-size: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .about .contents {
@@ -167,7 +171,7 @@ li {
 }
 .about .right li{
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 
     margin-top: 10px;
 }
@@ -197,7 +201,9 @@ li {
     width: 100%;
     height: 700px;
     background-color: #eee;
-    color: black;
+    color: #000000;
+
+    background-color: #000000;
 }
 .skills-inner{
     width: 1200px;
@@ -211,6 +217,7 @@ li {
 }
 .skills h1{
     font-size: 50px;
+    color: white;
 }
 .skills .contents{
     width: 100%;
@@ -226,8 +233,10 @@ li {
     background-color: white;
 
     padding: 10px;
+    margin-right: 10px;
 
     transition: 0.3s;
+    border-radius: 15px;
 }
 .skills h3{
     margin-top: 30px;
@@ -257,9 +266,10 @@ li {
 .bg{
     width: 100%;
     height: 800px;
-    background: url(고냠이.jpg) no-repeat;
+    background: url(밤하늘.gif) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    filter: blur(3px);
 }
 
 .project{
@@ -280,7 +290,7 @@ li {
 
 .contact h1{
     font-size: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .contact .contents{
@@ -304,18 +314,19 @@ li {
 .info li{
     width: 350px;
     height: 80px;
-    color: black;
+    color: rgb(255, 255, 255);
 
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
     font-size: 22px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .contact .right p{
     font-size: 25px;
-    color: black;
+    color: #a99891;
 }
 
 .contact .right input{
@@ -323,12 +334,14 @@ li {
     height: 30px;
     margin-bottom: 30px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .contact .right textarea{
     width: 1050px;
     height: 330px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .contact .right button{
@@ -336,6 +349,7 @@ li {
     height: 30px;
     background-color: #a99891;
     color: white;
+    border-radius: 5px;
 }
 
 
