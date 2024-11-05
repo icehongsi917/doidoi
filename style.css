@@ -26,6 +26,7 @@ li {
     height: 1200px;
 
     color: white;
+     cursor: default;
 }
 
 .header {
@@ -34,6 +35,8 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    cursor: default;
 }
 
 .logo {
@@ -61,6 +64,12 @@ li {
 .menu li a {
     color: white;
     transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    color: #a99891
 }
 
 .main {
@@ -100,7 +109,7 @@ li {
     color: white;
     transition: 0.3s;
 
-    cursor: pointer; /* 커서 모양 변경 */
+    cursor: pointer;
 }
 
 .main button:hover {
@@ -166,6 +175,8 @@ li {
     width: 800px;
     height: 500px;
     padding-left: 10px;
+
+    margin-left: 10px;
 }
 .about .right h3{
     color: #a99891;
@@ -174,7 +185,6 @@ li {
 .about .right li{
     font-size: 20px;
     color: rgb(255, 255, 255);
-
     margin-top: 10px;
 }
 .fa-youtube{
@@ -235,18 +245,23 @@ li {
     background-color: white;
 
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
 
     transition: 0.3s;
     border-radius: 15px;
+
+    margin-left: 10px;
+
+    cursor: pointer;
 }
 .skills h3{
     margin-top: 30px;
+    /*margin-left: 10px;*/
     text-align: center;
     font-size: 25px;
 }
 .skills p{
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     font-size: 18px;
 }
@@ -352,10 +367,34 @@ li {
     background-color: #a99891;
     color: white;
     border-radius: 5px;
+
+    cursor: pointer;
 }
 
-
-
-
-
-
+.fa-cat{
+    margin-right: 5px;
+}
+.fa-ghost{
+    margin-right: 5px;
+}
+.fa-html5{
+    margin-right: 5px;
+}
+.fa-css3-alt{
+    margin-right: 5px;
+}
+.fa-keyboard{
+    margin-right: 5px;
+}
+.fa-pen-to-square{
+    margin-right: 5px;
+}
+.fa-glass-water{
+    margin-right: 5px;
+}
+.fa-spoon{
+    margin-right: 5px;
+}
+.fa-cloud-sun{
+    margin-right: 5px;
+}
